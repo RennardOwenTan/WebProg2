@@ -20,7 +20,10 @@
 
         <!-- Styles -->
         <style>
-            
+        .image-container img {
+            width: 1000px;
+            height: auto;
+        } 
         </style>
     </head>
     <body class="antialiased">

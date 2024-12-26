@@ -27,27 +27,27 @@
     </div>
     <div class="row text-center">
         <div class="col-md-4 mb-4">
-            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3">
+            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>RENNARD OWEN TAN</h5>
             <p class="text-muted">NIM: 2602086652</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3">
+            <img src="{{url('images/Shea.jpg')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>DELVIN HU</h5>
             <p class="text-muted">NIM: 2602087806</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3">
+            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>ENRICHO MARCHELINO</h5>
             <p class="text-muted">NIM: 2602092560</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3">
+            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>TAN, VALENTIUS IVAN DHARMATANTRA</h5>
             <p class="text-muted">NIM: 2602089502</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3">
+            <img src="https://via.placeholder.com/150" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>RODERICK KANGSON</h5>
             <p class="text-muted">NIM: 2602083940</p>
         </div>
