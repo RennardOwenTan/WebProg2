@@ -24,15 +24,15 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "builds": [{
+    "builds": [
+    {
       "src": "api/index.php",
       "use": "@vercel/php",
       "config": {
         "runtime": "php"
       }
-    },
-    {
-        "src": "public/images/*",
-        "use": "@vercel/static"
-    }]
+    }],
+    "static": {
+        "public": "public"
+    }
 }
