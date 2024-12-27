@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('species');
             $table->string('latin');
             $table->string('category');
-            $table->string('content');
+            $table->longText('content');
             $table->string('image');
             $table->timestamps();
         });
