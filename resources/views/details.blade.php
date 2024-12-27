@@ -14,7 +14,7 @@
       	
         <!-- Banner -->
         <div class="image-container" style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0 auto">
-            <img src="{{url(path:$animal->image)}}" alt="Centered Image">
+            <img src="{{asset(path:$animal->image)}}" alt="Centered Image">
         </div>
         <!-- /Banner -->
         

@@ -12,7 +12,7 @@
     <!-- Mission Section -->
     <div class="row align-items-center mb-5">
         <div class="col-md-6">
-            <img src="{{url('images/Logo.jpg')}}" alt="Mission Image" class="img-fluid rounded" style="width:auto; height:300px">
+            <img src="{{asset('images/Logo.jpg')}}" alt="Mission Image" class="img-fluid rounded" style="width:auto; height:300px">
         </div>
         <div class="col-md-6">
             <h2>Our Mission</h2>
@@ -27,27 +27,27 @@
     </div>
     <div class="row text-center">
         <div class="col-md-4 mb-4">
-            <img src="{{url('images/Owen.png')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
+            <img src="{{asset('images/Owen.png')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>RENNARD OWEN TAN</h5>
             <p class="text-muted">NIM: 2602086652</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="{{url('images/Shea.jpg')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
+            <img src="{{asset('images/Shea.jpg')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>DELVIN HU</h5>
             <p class="text-muted">NIM: 2602087806</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="{{url('images/Enricho.png')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
+            <img src="{{asset('images/Enricho.png')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>ENRICHO MARCHELINO</h5>
             <p class="text-muted">NIM: 2602092560</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="{{url('images/Ivan.png')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
+            <img src="{{asset('images/Ivan.png')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>TAN, VALENTIUS IVAN DHARMATANTRA</h5>
             <p class="text-muted">NIM: 2602089502</p>
         </div>
         <div class="col-md-4 mb-4">
-            <img src="{{url('images/Roderick.jpg')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
+            <img src="{{asset('images/Roderick.jpg')}}" alt="Team Member" class="rounded-circle mb-3" height="150px" width="150px">
             <h5>RODERICK KANGSON</h5>
             <p class="text-muted">NIM: 2602083940</p>
         </div>

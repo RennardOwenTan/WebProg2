@@ -4,7 +4,7 @@
 
 
 @section('content')
-<img src="{{url('images/Carousel2.jpg')}}" class="d-block w-100" alt="..." style="margin-top:100px">
+<img src="{{asset('images/Carousel2.jpg')}}" class="d-block w-100" alt="..." style="margin-top:100px">
 
 
 <section class="py-5 text-center container">
@@ -23,13 +23,13 @@
             <div class="col">
                 <div class="card shadow-sm">
                     <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="{http://www.w3.org/2000/svg}" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                    <img src="{{url($blog->image)}}" alt=""  style="width: 100%; height: 250px; object-fit: cover;" >
+                    <img src="{{asset($blog->image)}}" alt=""  style="width: 100%; height: 250px; object-fit: cover;" >
                     <div class="card-body">
                     <p class="card-text">{{$blog->species}}</p>
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
-                        <!-- <button href="{{url('details/'.$blog->animal_id)}}" type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
-                        <a href="{{url('details/'.$blog->id)}}" type="button" class="btn btn-sm btn-outline-secondary">View</a>
+                        <!-- <button href="{{asset('details/'.$blog->animal_id)}}" type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                        <a href="{{asset('details/'.$blog->id)}}" type="button" class="btn btn-sm btn-outline-secondary">View</a>
                         </div>
                     </div>
                     </div>

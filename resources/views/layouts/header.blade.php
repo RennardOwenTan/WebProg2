@@ -11,10 +11,10 @@
             Category
           </button>
           <ul class="dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="{{url('category/'.'Mammal')}}">Mammal</a></li>
-            <li><a class="dropdown-item" href="{{url('category/'.'Amphibian')}}">Amphibian</a></li> 
-            <li><a class="dropdown-item" href="{{url('category/'.'Reptile')}}">Reptile</a></li>
-            <li><a class="dropdown-item" href="{{url('category/'.'Avian')}}">Avian</a></li>
+            <li><a class="dropdown-item" href="{{asset('category/'.'Mammal')}}">Mammal</a></li>
+            <li><a class="dropdown-item" href="{{asset('category/'.'Amphibian')}}">Amphibian</a></li> 
+            <li><a class="dropdown-item" href="{{asset('category/'.'Reptile')}}">Reptile</a></li>
+            <li><a class="dropdown-item" href="{{asset('category/'.'Avian')}}">Avian</a></li>
           </ul>
         </li>
         <li class="nav-item">
